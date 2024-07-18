@@ -1,0 +1,11 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "lidia",
+  "password": "password"
+}
+
+###
+GET http://localhost:8080/users
+Authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteWJhY2tlbmQiLCJzdWIiOiIxMjRkMzI0MC0xNDI2LTQ4ZjAtOTMwZi0yY2FhYzc3N2Y0NzQiLCJleHAiOjE3MjEyNDY5OTksImlhdCI6MTcyMTI0Mzk5OSwic2NvcGUiOiJBRE1JTiJ9.J4SEzQCynC0wLHtPbD4tPcq7svp9LX2HdGg5zyKE2FIF-aG2XFQ0H5TzQO1A0Kc1YtiW_RnkM59N3iBJC-OF5jiXywAVbdu4G5JonwTnL_SDAysvFeixtiT5pewYTzM0u8yPkbaXAUpPeaV8sTfoUNCzM1uZdgxnX4O5q18pIHBWTOPcdJ7mY9QEfhqDUm6dUHznGdo7DLaubV06h1YeTSLeKXO-YhKDiXOCJg1m7eeMk7Il6mc5YB6GUNaNu3-j3QfO22f2YfywpGnt0-CC9-0cSflMcIFuc6iwoNaNAYLHQhAsxA6BJsFw1yA0xp8i8MuaE7R8e6H_jjYPIjx6Hg
